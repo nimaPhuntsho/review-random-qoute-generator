@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Balinese&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Antonio:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap");
+
+body {
+  width: 100%;
+  height: 100%;
+  background-color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 30%;
+  height: 60%;
+}
+
+h1 {
+  font-family: "Noto Sans TC", sans-serif;
+  letter-spacing: 3px;
+}
+
+.underline {
+  width: 100px;
+  height: 5px;
+  background-color: blueviolet;
+}
+.card-container {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0px 8px 16px 0px rgb(179, 172, 172);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 50px;
+  box-sizing: border-box;
+}
+
+.profile-image {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 10px;
+  box-shadow: 10px -2px 3px 3px rgb(102, 102, 211);
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 10px;
+}
+
+button {
+  width: 100px;
+  height: auto;
+  padding: 15px;
+  border: 0.3px solid black;
+  border-radius: 10px;
+  background-color: rgb(46, 46, 92);
+  color: white;
+  font-size: 15px;
+  letter-spacing: 3px;
+  margin: 10px;
+  box-sizing: border-box;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.content,
+h2,
+h3,
+p {
+  padding: 5px;
+  margin: 5px;
+  text-align: center;
+  line-height: 30px;
+  font-size: 18px;
+  box-sizing: border-box;
+}
+
+.content p {
+  font-family: "Noto Sans Balinese", sans-serif;
+  color: rgb(67, 88, 128);
+}
+
+.content h2 {
+  font-family: "Antonio", sans-serif;
+  font-size: 25px;
+  letter-spacing: 2px;
+}
+
+.content h3 {
+  font-family: "Shadows Into Light", cursive;
+  letter-spacing: 2px;
+  font-size: 20px;
+}
+
+.carousal {
+  width: 200px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  box-sizing: border-box;
+  font-size: 30px;
+}
+
+.right {
+  font-size: 30px;
+  margin-left: 15px;
+  box-sizing: border-box;
+}
+
+.left {
+  margin-right: 15px;
+  font-size: 30px;
+  box-sizing: border-box;
+}
